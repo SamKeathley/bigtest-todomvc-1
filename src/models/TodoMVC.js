@@ -86,6 +86,8 @@ export default class TodoMVC {
   }
 
   toggleAll() {
-    return this.todos.map(todo => todo.completed.set(true));
+    return this.isAllComplete
+      ? this.todos.map(todo => todo.completed.set(false))
+      : this.todos.map(todo => todo.completed.set(true));
   }
 }

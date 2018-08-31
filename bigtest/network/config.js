@@ -1,7 +1,9 @@
 import { API_URL } from "../../src/api";
 
 export default function configure() {
-  this.timing = 50;
+  // The cypress app is not talking to a network,
+  // so let's remove our network latency to match
+  this.timing = 0;
   this.urlPrefix = API_URL;
 
   this.get("/", ({ todos }, request) => {

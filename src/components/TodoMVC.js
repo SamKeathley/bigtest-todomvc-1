@@ -50,6 +50,11 @@ export default class TodoMVC_Component extends Component {
   handleInputChange = (...args) => this.state.store.newTodo.set(...args);
 
   handleEdit = (text, todo) => {
+    // this is gross
+    if (todo.state.text !== text) {
+      todo.text.set(text);
+    }
+
     apiRequest("PATCH", { title: text }, todo.state._id.$oid).then(() =>
       todo.stopEditing()
     );
