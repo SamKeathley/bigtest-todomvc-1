@@ -3,8 +3,8 @@
   "version": "0.0.1",
   "private": true,
   "devDependencies": {
+    "@bigtest/cli": "^0.2.0",
     "@bigtest/interactor": "^0.7.2",
-    "@bigtest/cli": "0.1.1",
     "@bigtest/mirage": "^0.0.1",
     "@bigtest/mocha": "^0.5.1",
     "@bigtest/react": "^0.1.2",

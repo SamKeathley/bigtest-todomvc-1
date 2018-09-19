@@ -2,9 +2,9 @@
 # yarn lockfile v1
 
 
-"@bigtest/cli@^0.1.1":
-  version "0.1.1"
-  resolved "https://registry.yarnpkg.com/@bigtest/cli/-/cli-0.1.1.tgz#23ddfc42fea35350ed0200fa6871525ed4feca6b"
+"@bigtest/cli@^0.2.0":
+  version "0.2.0"
+  resolved "https://registry.yarnpkg.com/@bigtest/cli/-/cli-0.2.0.tgz#79dffda9da6823621dbe6861c7ec172a84cb68fe"
   dependencies:
     "@bigtest/convergence" "^0.10.0"
     chalk "^2.4.1"
