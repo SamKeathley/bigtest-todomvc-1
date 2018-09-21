@@ -14,6 +14,7 @@ class TodoItem {
   todoText = text("label");
   toggle = clickable(".toggle");
   delete = clickable(".destroy");
+  labelIsPresent = isPresent("label");
   toggleIsPresent = isPresent(".toggle");
   deleteIsPresent = isPresent(".destroy");
   isCompleted = property(".toggle", "checked");
